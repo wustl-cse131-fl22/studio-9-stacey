@@ -2,11 +2,15 @@ package studio9;
 
 import assignment7.Student;
 
+import java.util.Map;
+import java.util.HashMap;
+
 public class UniversityDatabase {
-	//TODO: Complete this class according to the studio instructions
+	Map <String,Student> University = new HashMap();
+	double bearBucks;
 
 	public void addStudent(String accountName, Student student) {
-		// TODO
+		add.University() = University();
 	}
 
 	public int getStudentCount() {
@@ -20,7 +24,7 @@ public class UniversityDatabase {
 	}
 
 	public double getTotalBearBucks() {
-		// TODO
-		return 0.0;
+		
+		return bearBucks;
 	}
 }
